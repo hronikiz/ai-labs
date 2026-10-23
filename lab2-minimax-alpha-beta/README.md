@@ -7,7 +7,7 @@
 
 ## Запуск
 
-    pip install -r requirements.txt
+    pip install -r matplotlib
     python lab2_minimax.py
 
 Программа печатает таблицу и сводку, создаёт lab2_results.csv и lab2_chart.png.
