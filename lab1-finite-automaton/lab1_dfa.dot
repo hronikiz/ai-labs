@@ -1,0 +1,9 @@
+digraph DFA {
+  rankdir=LR; fontname="DejaVu Sans"; node [fontname="DejaVu Sans", shape=circle]; edge [fontname="DejaVu Sans"];
+  __s [shape=point]; __s -> q0;
+  q7 [shape=doublecircle];
+  q0 -> q1 [label="a"]; q1 -> q1 [label="a"]; q1 -> q2 [label="b"];
+  q2 -> q3 [label="c"]; q3 -> q4 [label="b"]; q4 -> q5 [label="c"]; q5 -> q2 [label="b"];
+  q3 -> q6 [label="d"]; q6 -> q7 [label="e"]; q7 -> q6 [label="d"];
+  note [shape=plaintext, label="Все остальные переходы ведут в ловушку (не показана)"];
+}
