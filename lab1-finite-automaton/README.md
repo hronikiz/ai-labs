@@ -12,14 +12,9 @@ Python:
     python lab1_dfa.py                 # таблица переходов, тесты, интерактивный режим
     python lab1_dfa.py abcde abcbcde   # проверить конкретные слова
 
-Java (11+):
-
-    java Lab1Dfa.java
-    java Lab1Dfa.java abcde abcbcde
-
 ## Состав
 
-- lab1_dfa.py, Lab1Dfa.java: автомат, независимый эталон, тесты, интерактивный режим
+- lab1_dfa.py: автомат, независимый эталон, тесты, интерактивный режим
 - lab1_dfa.dot, lab1_dfa.png: диаграмма состояний (Graphviz)
 
 ## Тесты
